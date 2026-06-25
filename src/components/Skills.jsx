@@ -2,22 +2,22 @@ const stack = [
   {
     group: 'Frontend',
     icon: 'bi-window-stack',
-    items: ['React', 'Next.js', 'TypeScript', 'Redux', 'Zustand', 'Tailwind CSS'],
+    items: ['React', 'React Bootstrap', 'Bootstrap 5', 'React Router', 'Chart.js'],
   },
   {
     group: 'Backend',
     icon: 'bi-hdd-rack',
-    items: ['Node.js', 'Express', 'JWT', 'Python', 'Flask', 'GraphQL'],
+    items: ['Node.js', 'Express', 'REST APIs', 'Axios'],
   },
   {
     group: 'Database',
     icon: 'bi-database',
-    items: ['MongoDB', 'Mongoose', 'PostgreSQL', 'SQLAlchemy', 'Supabase'],
+    items: ['MongoDB', 'Mongoose'],
   },
   {
     group: 'Tooling',
     icon: 'bi-tools',
-    items: ['Git', 'GitHub', 'Vercel', 'Railway', 'CI/CD', 'VS Code'],
+    items: ['Git', 'GitHub', 'Vite', 'Vercel', 'VS Code'],
   },
 ];
 

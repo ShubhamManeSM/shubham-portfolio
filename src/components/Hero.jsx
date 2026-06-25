@@ -62,10 +62,10 @@ function Hero() {
             ></div>
 
             <p className="hero-bio mt-4">
-              Passionate full-stack developer crafting intuitive digital
-              experiences with modern technologies. Specializing in React,
-              Node.js, and MongoDB to build scalable and user-centered
-              applications.
+              I enjoy turning ideas into clean, functional web apps. Primarily
+              working with React and the JavaScript ecosystem, I focus on
+              building interfaces that are fast, accessible, and a pleasure to
+              use.
             </p>
 
             <div className="d-flex gap-3 mt-4">

@@ -47,8 +47,8 @@ function Contact() {
             >
               <a
                 href={c.href}
-                target="_blank"
-                rel="noopener noreferrer"
+                target={c.href.startsWith('mailto:') ? '_self' : '_blank'}
+                rel={c.href.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
                 className="contact-card"
               >
                 <span className="icon-box">
