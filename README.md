@@ -1,16 +1,43 @@
-# React + Vite
+# Shubham Mane - Full Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A premium, fully responsive personal portfolio website built with React and Bootstrap. It showcases my projects, skills, and provides a way to get in touch.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Quick Start
 
-## React Compiler
+Follow these steps to run the project locally:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/ShubhamManeSM/shubham-portfolio
+cd shubham-portfolio
+npm install
+npm run dev
+```
 
-## Expanding the Oxlint configuration
+## Technologies
+- **React 19**
+- **Vite**
+- **Bootstrap 5 & React Bootstrap** (Styling and layout)
+- **Bootstrap Icons**
+- **Vanilla CSS** (Custom glassmorphism & animations)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Features
+
+**Responsive Design**
+- Fully responsive layout that looks great on mobile, tablet, and desktop screens.
+
+**Light/Dark Mode**
+- Built-in theme toggler with user preference saved to localStorage.
+
+**Scroll Animations**
+- Elements elegantly reveal themselves as you scroll down the page using `IntersectionObserver`.
+
+**Dynamic Sections**
+- **Hero**: Introduction with typing animation effect.
+- **Projects**: Interactive project cards with image zoom and lift effects on hover.
+- **Tech Stack**: Organized categorization of skills and technologies.
+- **Contact**: Easy to access social links and email.
+
+## Contact
+For any inquiries or collaboration, please reach out to [Email Me](mailto:shubhammane7096@gmail.com)
